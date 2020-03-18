@@ -1,6 +1,5 @@
 require_relative 'abstract_bike'
 require_relative 'abstract_storage'
-require_relative 'tail_pack'
 
 class BmxBike < AbstractBike
 
