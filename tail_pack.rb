@@ -1,11 +1,9 @@
-class TailPack
+require_relative 'abstract_storage'
 
-def initialize
-  @cost = 2 # Flat rate per rental
-end
+class TailPack < AbstractStorage
 
-def cost
-  @cost
-end
+  def initialize
+    @cost = 2
+  end
 
 end

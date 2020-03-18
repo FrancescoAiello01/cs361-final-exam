@@ -8,4 +8,8 @@ class AbstractBike
     puts "Cleaning..."
   end
 
+  def prepare
+    raise 'Please implement the prepare method.'
+  end
+
 end

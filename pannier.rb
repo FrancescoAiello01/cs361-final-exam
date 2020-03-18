@@ -1,25 +1,12 @@
+require_relative 'abstract_storage'
 
-
-class Pannier
+class Pannier < AbstractStorage
 
   def initialize
-    @price = 3 # Set price. Flat rate per rental
+    @price = 3
   end
 
-
-  # Get price
-  def price
-    @price
-  end
-
-  end
-
-
-
-  # def weight
-  #   @weight
-  # end
-
+end
 
 
 
